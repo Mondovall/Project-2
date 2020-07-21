@@ -15,7 +15,7 @@ struct File ///files are keys in the nodes
 class FolderNode  //child folders
 { //Btree Node declaration
 public: 
-
+	///Some functions will go here .
 
 private:
 	std::string name;
