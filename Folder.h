@@ -5,17 +5,27 @@
 #include<map>
 #include<direct.h>
 #include<filesystem>
+#include <experimental/filesystem>
+namespace filesys = std::experimental::filesystem;
 
+bool directoryCheck(std::string path);
 struct File ///files are keys in the nodes
 {
 	std::string name;
 	double size;
+	File()
+	{
+		name = "";
+		size = 0;
+
+	}
 
 };
 class FolderNode  //child folders
 { //Btree Node declaration
 public: 
 	///Some functions will go here .
+
 
 private:
 	std::string name;
@@ -54,6 +64,10 @@ private:
 
 	FolderNode* rootFolder; //root node.
 };
+
+
+
+
 
 
 
