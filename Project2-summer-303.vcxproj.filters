@@ -18,7 +18,7 @@
     <ClCompile Include="Folder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Binary_Trees_Binary_Search_Trees\BinaryTreeApp.cpp">
+    <ClCompile Include="BinaryTreeApp.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,19 +26,19 @@
     <ClInclude Include="Folder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Binary_Trees_Binary_Search_Trees\Binary_Search_Tree.h">
+    <ClInclude Include="Binary_Search_Tree.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Binary_Trees_Binary_Search_Trees\Binary_Tree.h">
+    <ClInclude Include="Binary_Tree.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Binary_Trees_Binary_Search_Trees\BTNode.h">
+    <ClInclude Include="BTNode.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Binary_Trees_Binary_Search_Trees\String_Tokenizer.h">
+    <ClInclude Include="String_Tokenizer.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Binary_Trees_Binary_Search_Trees\Syntax_Error.h">
+    <ClInclude Include="Syntax_Error.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>

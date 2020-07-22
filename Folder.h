@@ -25,7 +25,11 @@ class FolderNode  //child folders
 { //Btree Node declaration
 public: 
 	///Some functions will go here .
+	FolderNode*init()
+	{
+	
 
+	}
 
 private:
 	std::string name;
@@ -33,6 +37,7 @@ private:
 	File* fileKey; ///keys for Node
 	FolderNode** folderKey; //Node (folder) contained inside a folder and so on. / also contains files.
 	bool leafNode; //if a node is a leaf.
+	std::list<File*> filesInFolder;
 
 friend class Folder;
 };
